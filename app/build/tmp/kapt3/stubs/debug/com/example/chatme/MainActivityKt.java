@@ -6,6 +6,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 import androidx.activity.ComponentActivity;
 import androidx.compose.foundation.layout.*;
+import androidx.compose.foundation.lazy.LazyListState;
 import androidx.compose.foundation.text.KeyboardOptions;
 import androidx.compose.material.*;
 import androidx.compose.material.icons.Icons;

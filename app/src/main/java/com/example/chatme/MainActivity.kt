@@ -10,8 +10,11 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 
+
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
@@ -22,6 +25,7 @@ import androidx.compose.material.icons.filled.Email
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Alignment.Companion.BottomCenter
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Alignment.Companion.End
 import androidx.compose.ui.Alignment.Companion.Start
@@ -59,6 +63,7 @@ import com.ramcosta.composedestinations.DestinationsNavHost
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
+import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -560,118 +565,150 @@ fun ChatScreen(nav: DestinationsNavigator, myEmail: String) {
             }
 
         }
-
-        LazyColumn(
-            modifier = Modifier
+        Spacer(modifier = Modifier.padding(0.dp, 1.dp))
+        val lazyListState = rememberLazyListState()
+        Box(modifier = Modifier.fillMaxSize()) {
+            Card(modifier = Modifier
                 .fillMaxWidth()
-
-        ) {
-
-            items(listconv){
-
-                if (myEmail == it.from) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.End
-                    ) {
-                        Card(
-                            modifier = Modifier.padding(4.dp, 0.dp),
-                            shape = RoundedCornerShape(10.dp, 20.dp, 0.dp, 20.dp)
-
-                        ) {
-                            Text(
-                                text = it.content,
-                                modifier = Modifier
-                                    .background(Color.DarkGray)
-                                    .padding(10.dp, 10.dp),
-                                color = Color.White, fontSize = 30.sp
-                            )
-                            Text(text = it.from)
-                        }
-                    }
-                } else {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.Start
-                    ) {
-                        Card(
-                            modifier = Modifier.padding(4.dp, 0.dp),
-                            shape = RoundedCornerShape(0.dp, 0.dp, 30.dp, 5.dp)
-                        ) {
-                            Text(
-                                text = it.content,
-                                modifier = Modifier
-                                    .background(Color.Green)
-                                    .padding(10.dp, 10.dp),
-                                color = Color.White, fontSize = 30.sp
-                            )
-                            Text(text = it.from)
-                        }
-
-                    }
-                }
+                .height(690.dp)) {
 
 
-            }
+               LazyColumn(
+                    state = lazyListState,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(5.dp)
 
-
-        }
-
-        //Spacer(modifier = Modifier.height(420.dp))
-        OutlinedTextField(
-
-            modifier = Modifier
-                .background(color = Color.White)
-                .fillMaxWidth()
-                .height(60.dp)
-                .align(Alignment.CenterHorizontally),
-            value = content,
-            onValueChange = { newcontent -> content = newcontent },
-            placeholder = {
-                Text(
-                    text = "Type something..",
-                    color = Color.LightGray,
-                    fontSize = 20.sp
-                )
-            },
-            keyboardOptions = KeyboardOptions(
-                keyboardType = KeyboardType.Text
-            ),
-            colors = TextFieldDefaults.outlinedTextFieldColors(
-                focusedBorderColor = Color.Black,
-                cursorColor = Color.Black
-            ),
-            trailingIcon = {
-                IconButton(modifier = Modifier
-                    .background(color = Color(0xffF5F5F5)), onClick = {
-
-                }) {
-                    Icon(
-                        painter = painterResource(R.drawable.vector__9_),
-                        contentDescription = "",
-                        tint = (Color(0xffFFA925))
-                    )
-                }
-            },
-            leadingIcon = {
-                IconButton(modifier = Modifier
-                    .background(color = Color(0xffF5F5F5)),
-                    onClick = {
-                        val newNode = myRef.push()
-                        newNode.setValue(Massages(myEmail,content))
-                        //زر الارسال   ******************--------********
-
-
-                    }
                 ) {
-                    Icon(
-                        painter = painterResource(R.drawable.vector__8_),
-                        contentDescription = "",
-                        tint = (Color(0xffFFA925))
-                    )
+
+                    items(listconv) {
+
+                        if (myEmail == it.from) {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.End
+                            ) {
+                                Card(
+                                    shape = RoundedCornerShape(10.dp, 20.dp, 0.dp, 20.dp),
+                                    backgroundColor = Color(0xffFFA925),
+                                    modifier = Modifier.padding(4.dp, 0.dp),
+
+
+                                    ) {
+                                    Text(
+                                        text = it.content,
+                                        modifier = Modifier
+                                            .padding(10.dp, 10.dp),
+                                        color = Color.White, fontSize = 30.sp
+                                    )
+                                    Text(
+                                        text = it.from,
+                                        fontSize = 8.sp,
+                                        modifier = Modifier.padding(5.dp, 5.dp)
+                                    )
+                                    Spacer(modifier = Modifier.padding(5.dp, 5.dp))
+                                }
+                            }
+                        } else {
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.Start
+                            ) {
+                                Card(
+                                    modifier = Modifier.padding(4.dp, 0.dp),
+                                    shape = RoundedCornerShape(5.dp, 10.dp, 30.dp, 5.dp),
+                                    backgroundColor = Color.DarkGray
+                                ) {
+                                    Text(
+                                        text = it.content,
+                                        modifier = Modifier
+                                            .padding(10.dp, 10.dp),
+                                        color = Color.White, fontSize = 30.sp
+                                    )
+                                    Text(
+                                        text = it.from,
+                                        fontSize = 8.sp,
+                                        modifier = Modifier.padding(5.dp, 5.dp)
+                                    )
+                                }
+
+                            }
+                        }
+
+
+                    }
+
+
                 }
             }
-        )
+
+            val scope = rememberCoroutineScope()
+            //Spacer(modifier = Modifier.height(420.dp))
+            Row(modifier = Modifier
+                .fillMaxWidth()
+                .align(BottomCenter), ) {
+
+
+                OutlinedTextField(
+
+                    modifier = Modifier
+                        .background(color = Color.White)
+                        .fillMaxWidth()
+                        .height(60.dp),
+                    //.align(Alignment.CenterHorizontally),
+                    value = content,
+                    onValueChange = { newcontent -> content = newcontent },
+                    placeholder = {
+                        Text(
+                            text = "Type something..",
+                            color = Color.LightGray,
+                            fontSize = 20.sp
+                        )
+                    },
+                    keyboardOptions = KeyboardOptions(
+                        keyboardType = KeyboardType.Text
+                    ),
+                    colors = TextFieldDefaults.outlinedTextFieldColors(
+                        focusedBorderColor = Color.Black,
+                        cursorColor = Color.Black
+                    ),
+                    trailingIcon = {
+                        IconButton(modifier = Modifier
+                            .background(color = Color(0xffF5F5F5)), onClick = {
+
+                        }) {
+                            Icon(
+                                painter = painterResource(R.drawable.vector__9_),
+                                contentDescription = "",
+                                tint = (Color(0xffFFA925))
+                            )
+                        }
+                    },
+                    leadingIcon = {
+                        IconButton(modifier = Modifier
+                            .background(color = Color(0xffF5F5F5)),
+
+                                onClick = {
+                                    val newNode = myRef.push()
+                                    newNode.setValue(Massages(myEmail, content))
+                                    //زر الارسال   ******************--------********
+                                    scope.launch {
+                                        lazyListState.animateScrollToItem(listconv.size - 1)
+                                    }
+                                    content = ""
+                                }
+
+                        ) {
+                            Icon(
+                                painter = painterResource(R.drawable.vector__8_),
+                                contentDescription = "",
+                                tint = (Color(0xffFFA925))
+                            )
+                        }
+                    }
+                )
+            }
+        }
     }
 
 }

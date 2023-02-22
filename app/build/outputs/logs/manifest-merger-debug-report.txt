@@ -209,7 +209,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ayub\.gradle\cache
 	tools:targetApi
 		ADDED from C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\main\AndroidManifest.xml:10:9-48
 	android:allowBackup
 		ADDED from C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme

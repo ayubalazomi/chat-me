@@ -12,10 +12,13 @@ drawable baseline_chat_24
 drawable baseline_search_24
 drawable baseline_visibility_24
 drawable baseline_visibility_off_24
+drawable cffd
+drawable dfdgdgdggdgdgd
 drawable frame
 drawable frame__1_
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable oip
 drawable rectangle_8
 drawable vector__5_
 drawable vector__6_
@@ -23,6 +26,7 @@ drawable vector__7_
 drawable vector__8_
 drawable vector__9_
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string default_web_client_id

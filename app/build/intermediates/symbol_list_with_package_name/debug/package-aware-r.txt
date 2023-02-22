@@ -108,6 +108,7 @@ drawable baseline_chat_24
 drawable baseline_search_24
 drawable baseline_visibility_24
 drawable baseline_visibility_off_24
+drawable cffd
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -127,6 +128,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable dfdgdgdggdgdgd
 drawable frame
 drawable frame__1_
 drawable googleg_disabled_color_18
@@ -145,6 +147,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable oip
 drawable rectangle_8
 drawable vector__5_
 drawable vector__6_
@@ -265,6 +268,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw firebase_common_keep
 string androidx_startup
