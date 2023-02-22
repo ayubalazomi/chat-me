@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFFFA925</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Chat me</string>
+    <string name="default_web_client_id" translatable="false">784405172462-n9837s5k97fcbuqc6pqebqgruedp0g8a.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">784405172462</string>
+    <string name="google_api_key" translatable="false">AIzaSyBlzDW2TDlh00mWa85tioEnsCOz68sbJbU</string>
+    <string name="google_app_id" translatable="false">1:784405172462:android:02d69ede95a8018b6363ff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBlzDW2TDlh00mWa85tioEnsCOz68sbJbU</string>
+    <string name="google_storage_bucket" translatable="false">chat-me-c6759.appspot.com</string>
+    <string name="project_id" translatable="false">chat-me-c6759</string>
+    <style name="Theme.ChatMe" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/purple_200</item>
+    </style>
+</resources>

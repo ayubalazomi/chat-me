@@ -1,0 +1,61 @@
+com.example.chatme.app-material-1.3.1-0 C:\Users\ayub\.gradle\caches\transforms-3\0c66693a914acfaa389f502d219d92c1\transformed\material-1.3.1\res
+com.example.chatme.app-navigation-common-2.6.0-alpha04-1 C:\Users\ayub\.gradle\caches\transforms-3\134e1f7aba5426dac92d9684ce4d12f9\transformed\navigation-common-2.6.0-alpha04\res
+com.example.chatme.app-ui-util-1.3.3-2 C:\Users\ayub\.gradle\caches\transforms-3\1aa7fa3168b309c7ff683005a094cbe1\transformed\ui-util-1.3.3\res
+com.example.chatme.app-annotation-experimental-1.3.0-3 C:\Users\ayub\.gradle\caches\transforms-3\248944af9a99f7317e903bf46554b6e2\transformed\annotation-experimental-1.3.0\res
+com.example.chatme.app-core-1.9.0-4 C:\Users\ayub\.gradle\caches\transforms-3\24c6dd6b9443a8972e12db4e8f39c037\transformed\core-1.9.0\res
+com.example.chatme.app-hilt-navigation-1.0.0-5 C:\Users\ayub\.gradle\caches\transforms-3\29488a1803fb9e4f8e949aa7428194a1\transformed\hilt-navigation-1.0.0\res
+com.example.chatme.app-runtime-saveable-1.3.3-6 C:\Users\ayub\.gradle\caches\transforms-3\2ae2b89a09c792a4ec4a9163040b0d49\transformed\runtime-saveable-1.3.3\res
+com.example.chatme.app-lifecycle-viewmodel-savedstate-2.5.1-7 C:\Users\ayub\.gradle\caches\transforms-3\2aeede6fd40bd10a474d450375327538\transformed\lifecycle-viewmodel-savedstate-2.5.1\res
+com.example.chatme.app-activity-1.6.1-8 C:\Users\ayub\.gradle\caches\transforms-3\321d92a631de21975695f30df88b667c\transformed\activity-1.6.1\res
+com.example.chatme.app-navigation-runtime-ktx-2.6.0-alpha04-9 C:\Users\ayub\.gradle\caches\transforms-3\3341823a9aebf996e55420d64fbe9ff7\transformed\navigation-runtime-ktx-2.6.0-alpha04\res
+com.example.chatme.app-runtime-1.3.3-10 C:\Users\ayub\.gradle\caches\transforms-3\3770363ca5a25b9c1675108d0ff72499\transformed\runtime-1.3.3\res
+com.example.chatme.app-lifecycle-runtime-2.5.1-11 C:\Users\ayub\.gradle\caches\transforms-3\38fd63d09fb5b0133630e01d9bd6a099\transformed\lifecycle-runtime-2.5.1\res
+com.example.chatme.app-core-ktx-1.9.0-12 C:\Users\ayub\.gradle\caches\transforms-3\4370f08decbc97efe0bf52cd6e8e15d3\transformed\core-ktx-1.9.0\res
+com.example.chatme.app-animation-1.3.3-13 C:\Users\ayub\.gradle\caches\transforms-3\47cc8c4d34840901a01d498ef95efd79\transformed\animation-1.3.3\res
+com.example.chatme.app-animation-core-1.3.3-14 C:\Users\ayub\.gradle\caches\transforms-3\49f7ac737f63237fbf729cceffec2bd1\transformed\animation-core-1.3.3\res
+com.example.chatme.app-browser-1.4.0-15 C:\Users\ayub\.gradle\caches\transforms-3\4cdbc9fc73df3a97472708cac808eaf1\transformed\browser-1.4.0\res
+com.example.chatme.app-sqlite-2.3.0-16 C:\Users\ayub\.gradle\caches\transforms-3\4f08a2e7f828f70ca8a86e645c5e6008\transformed\sqlite-2.3.0\res
+com.example.chatme.app-navigation-compose-2.6.0-alpha04-17 C:\Users\ayub\.gradle\caches\transforms-3\539d3e721088c82b8ef2e69b9159ab35\transformed\navigation-compose-2.6.0-alpha04\res
+com.example.chatme.app-material-icons-core-1.3.1-18 C:\Users\ayub\.gradle\caches\transforms-3\582b6a858d61d2188c65789fdfc90e74\transformed\material-icons-core-1.3.1\res
+com.example.chatme.app-ui-geometry-1.3.3-19 C:\Users\ayub\.gradle\caches\transforms-3\59e394e8bf9acfaeed066e6ae5621173\transformed\ui-geometry-1.3.3\res
+com.example.chatme.app-foundation-1.2.0-20 C:\Users\ayub\.gradle\caches\transforms-3\5c751fb0b10e59b94085168196481d9c\transformed\foundation-1.2.0\res
+com.example.chatme.app-activity-ktx-1.6.1-21 C:\Users\ayub\.gradle\caches\transforms-3\5fd99f50cb1d7e7ba7ef6c095bcab7ce\transformed\activity-ktx-1.6.1\res
+com.example.chatme.app-room-runtime-2.5.0-22 C:\Users\ayub\.gradle\caches\transforms-3\60b2e770219380c44f98a468e08e632a\transformed\room-runtime-2.5.0\res
+com.example.chatme.app-firebase-common-20.3.0-23 C:\Users\ayub\.gradle\caches\transforms-3\6467d972bbd3425c0ebb62821b323b74\transformed\firebase-common-20.3.0\res
+com.example.chatme.app-ui-tooling-data-1.3.3-24 C:\Users\ayub\.gradle\caches\transforms-3\6970eaa4b179cb7a6ad1bdfa8446ced2\transformed\ui-tooling-data-1.3.3\res
+com.example.chatme.app-navigation-runtime-2.6.0-alpha04-25 C:\Users\ayub\.gradle\caches\transforms-3\6db0678c122f54515ae1fb70a4c327bc\transformed\navigation-runtime-2.6.0-alpha04\res
+com.example.chatme.app-ui-test-manifest-1.3.3-26 C:\Users\ayub\.gradle\caches\transforms-3\72dbdaac6bab6469739688b1d4a941fa\transformed\ui-test-manifest-1.3.3\res
+com.example.chatme.app-activity-compose-1.6.1-27 C:\Users\ayub\.gradle\caches\transforms-3\7829347dfe26b4de97c1aea07dcbabdb\transformed\activity-compose-1.6.1\res
+com.example.chatme.app-lifecycle-viewmodel-2.5.1-28 C:\Users\ayub\.gradle\caches\transforms-3\7922d57c05e59efe2b5b85dabf347835\transformed\lifecycle-viewmodel-2.5.1\res
+com.example.chatme.app-ui-graphics-1.3.3-29 C:\Users\ayub\.gradle\caches\transforms-3\7f11f423a04379636ff8c2724b58bec5\transformed\ui-graphics-1.3.3\res
+com.example.chatme.app-ui-1.3.3-30 C:\Users\ayub\.gradle\caches\transforms-3\7f355b393ed2c412c30fd4f1ee9c2681\transformed\ui-1.3.3\res
+com.example.chatme.app-play-services-basement-18.1.0-31 C:\Users\ayub\.gradle\caches\transforms-3\82cec4aa475bce6ac7311ab491c73142\transformed\play-services-basement-18.1.0\res
+com.example.chatme.app-navigation-common-ktx-2.6.0-alpha04-32 C:\Users\ayub\.gradle\caches\transforms-3\8476b872194408d732c7ce34aa778472\transformed\navigation-common-ktx-2.6.0-alpha04\res
+com.example.chatme.app-material-ripple-1.3.1-33 C:\Users\ayub\.gradle\caches\transforms-3\9c469a8f5fb3dbd5096fbc5c7097763c\transformed\material-ripple-1.3.1\res
+com.example.chatme.app-startup-runtime-1.1.1-34 C:\Users\ayub\.gradle\caches\transforms-3\9c4db06f141d2f262e34fd77492d9111\transformed\startup-runtime-1.1.1\res
+com.example.chatme.app-fragment-1.5.1-35 C:\Users\ayub\.gradle\caches\transforms-3\a4263bb1c470da976bd9cfffc2d25df7\transformed\fragment-1.5.1\res
+com.example.chatme.app-lifecycle-livedata-core-2.5.1-36 C:\Users\ayub\.gradle\caches\transforms-3\b10b560d86bed9dc069ab144ec6024b6\transformed\lifecycle-livedata-core-2.5.1\res
+com.example.chatme.app-lifecycle-viewmodel-compose-2.5.1-37 C:\Users\ayub\.gradle\caches\transforms-3\b3ee996b5ab8f85ae5f78454a1e10df7\transformed\lifecycle-viewmodel-compose-2.5.1\res
+com.example.chatme.app-play-services-base-18.0.1-38 C:\Users\ayub\.gradle\caches\transforms-3\b91c60a70387ca0a04c2f6209745cf15\transformed\play-services-base-18.0.1\res
+com.example.chatme.app-ui-tooling-1.3.3-39 C:\Users\ayub\.gradle\caches\transforms-3\bb0457e18b76d3f4f4f57fb1c85a5ad0\transformed\ui-tooling-1.3.3\res
+com.example.chatme.app-customview-poolingcontainer-1.0.0-40 C:\Users\ayub\.gradle\caches\transforms-3\c6975e73c5f28930627432edb3c6e21c\transformed\customview-poolingcontainer-1.0.0\res
+com.example.chatme.app-ui-unit-1.3.3-41 C:\Users\ayub\.gradle\caches\transforms-3\cb57c13b2a4b46521f56a280c9274c73\transformed\ui-unit-1.3.3\res
+com.example.chatme.app-ui-tooling-preview-1.3.3-42 C:\Users\ayub\.gradle\caches\transforms-3\ce8e213a8e88e1459abf4f9280e56607\transformed\ui-tooling-preview-1.3.3\res
+com.example.chatme.app-sqlite-framework-2.3.0-43 C:\Users\ayub\.gradle\caches\transforms-3\d2999ad3fa67010528e6956fedd14356\transformed\sqlite-framework-2.3.0\res
+com.example.chatme.app-room-ktx-2.5.0-44 C:\Users\ayub\.gradle\caches\transforms-3\d72a2c9d4e6e78c9c0e6aebb24ea2d09\transformed\room-ktx-2.5.0\res
+com.example.chatme.app-foundation-layout-1.2.0-45 C:\Users\ayub\.gradle\caches\transforms-3\d909323be73a975b73b37e5d6d156d3c\transformed\foundation-layout-1.2.0\res
+com.example.chatme.app-savedstate-1.2.0-46 C:\Users\ayub\.gradle\caches\transforms-3\dbebff5faf8ecb0c01f3b476a33de7e1\transformed\savedstate-1.2.0\res
+com.example.chatme.app-ui-text-1.3.3-47 C:\Users\ayub\.gradle\caches\transforms-3\dd954dfd3ac36052b4e02c4bb76dc307\transformed\ui-text-1.3.3\res
+com.example.chatme.app-savedstate-ktx-1.2.0-48 C:\Users\ayub\.gradle\caches\transforms-3\df5d30dc2f4b331bb5b3ff5307596222\transformed\savedstate-ktx-1.2.0\res
+com.example.chatme.app-hilt-navigation-compose-1.0.0-49 C:\Users\ayub\.gradle\caches\transforms-3\e3cd725f825d5aab0f41449db9996505\transformed\hilt-navigation-compose-1.0.0\res
+com.example.chatme.app-lifecycle-runtime-ktx-2.5.1-50 C:\Users\ayub\.gradle\caches\transforms-3\e6922781b6930419ac740bf71dc629c0\transformed\lifecycle-runtime-ktx-2.5.1\res
+com.example.chatme.app-profileinstaller-1.2.0-51 C:\Users\ayub\.gradle\caches\transforms-3\f15b275d9c6d25a100a117c3adf1453f\transformed\profileinstaller-1.2.0\res
+com.example.chatme.app-lifecycle-viewmodel-ktx-2.5.1-52 C:\Users\ayub\.gradle\caches\transforms-3\f9e381b2ead8f1236bcead0a728fa869\transformed\lifecycle-viewmodel-ktx-2.5.1\res
+com.example.chatme.app-google-services-53 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\generated\res\google-services\debug
+com.example.chatme.app-resValues-54 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\generated\res\resValues\debug
+com.example.chatme.app-rs-55 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\generated\res\rs\debug
+com.example.chatme.app-packageDebugResources-56 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.chatme.app-packageDebugResources-57 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.chatme.app-merged_res-58 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\build\intermediates\merged_res\debug
+com.example.chatme.app-debug-59 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\debug\res
+com.example.chatme.app-main-60 C:\Users\ayub\Desktop\New folnaghjgcfgjder (4)\chat-me-main\app\src\main\res
